@@ -1,7 +1,7 @@
 <h1>💻 Projeto Java – Classe Computador e Aplicação de Teste <br></br></h1>
 
 <h3>📋 Descrição <br></br> </h3>
-Este projeto foi desenvolvido como parte de uma atividade acadêmica de Programação Orientada a Objetos em Java. O objetivo é aplicar conceitos fundamentais da linguagem, como:
+Este projeto foi desenvolvido como parte de uma atividade acadêmica de Programação Orientada a Objetos em Java. O objetivo é aplicar conceitos fundamentais da linguagem, como: <br> </br>
 
 - Criação de classes e objetos
 - Construtores default e parametrizados
@@ -10,9 +10,10 @@ Este projeto foi desenvolvido como parte de uma atividade acadêmica de Programa
 - Repetição de processos com estrutura de controle (`do/while`)
 ## 
 <h3>🧩 Estrutura do Projeto <br></br></h3>
-- **Computador.java**: classe modelo com cinco atributos (`marca`, `processador`, `memoriaRAM`, `armazenamento`, `preco`), construtores, getters, setters e método `imprimir()`.
-- **TesteComputador.java**: aplicação principal que instancia quatro objetos `Computador`, solicita dados ao usuário e exibe os resultados formatados. Inclui menu de repetição interativa.
+<b>- Computador.java:</b> classe modelo com cinco atributos <b>(<i>marca, processador, memoriaRAM, armazenamento, preco</i>)</b>, construtores, getters, setters e método <i><b>imprimir()</b></i>. <br> </br>
+<b>- TesteComputador.java:</b> aplicação principal que instancia quatro objetos <b><i>Computador</i></b>, solicita dados ao usuário e exibe os resultados formatados. Inclui menu de repetição interativa.
 
+## 
 <h3>📷 Exemplo de Saída <br></br></h3>
 
 ```
@@ -28,6 +29,7 @@ Preço: R$4500.0
 ```
 ## 
 <h3>🚀 Como Executar <br></br></h3>
+
 1. Compile os arquivos:
 ```bash
 javac Computador.java TesteComputador.java
